@@ -10,7 +10,7 @@ router.get("/login", function(req, res, next) {
   res.render("login");
 });
 
-router.get("/dashboardv1", function(req, res, next) {
+router.get("/admin", function(req, res, next) {
   res.render("dashboard-v1");
 });
 
